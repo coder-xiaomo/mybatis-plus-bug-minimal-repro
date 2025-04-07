@@ -18,7 +18,9 @@ java -jar ./target/backend-0.0.1-SNAPSHOT.jar
 请求：
 
 ```bash
+# 接口见 DemoController.java
 curl http://127.0.0.1:8080/issue
+
 # 备注：
 # IDEA 运行时正常
 # 打成 jar 包后报错如下
